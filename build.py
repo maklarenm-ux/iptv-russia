@@ -26,7 +26,7 @@ CUSTOM_CHANNELS = [
     {
         "name": "Мосфильм золотая коллекция",
         "id": "MosfilmGoldCollection.ru@SD",
-        "url": "http://178.217.72.66:8080/mosfilm/index.m3u8",
+        "url": "http://stream.mcquack.net/369/index.m3u8",
         "logo": "https://i.imgur.com/95Y8jb6.png",
         "group": "Россия | Кино и сериалы"
     }
