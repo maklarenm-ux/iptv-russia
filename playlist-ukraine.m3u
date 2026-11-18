@@ -142,10 +142,6 @@ http://stream.mcquack.net/218/index.m3u8
 http://stream.mcquack.net/330/index.m3u8
 #EXTINF:-1 tvg-id="MaincastCybersport.ua@SD" group-title="Украина | Спорт",Maincast Cybersport (1080p)
 http://stream.mcquack.net/487/index.m3u8
-#EXTINF:-1 tvg-id="MaincastSport.ua@SD" group-title="Украина | Спорт",Maincast Sport (1080p)
-http://stream.mcquack.net/490/index.m3u8
-#EXTINF:-1 tvg-id="MaincastSport.ua@SD" group-title="Украина | Спорт",Maincast Sport
-srt://87.245.216.208:5001
 #EXTINF:-1 tvg-id="MasonTV.ua@SD" group-title="Украина | Развлекательные",Mason TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/346/index.m3u8
