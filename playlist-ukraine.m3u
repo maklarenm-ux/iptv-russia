@@ -216,20 +216,11 @@ http://stream.mcquack.net/435/index.m3u8
 #EXTINF:-1 tvg-id="SvitPlus.ua@SD" group-title="Украина | Общие",Svit+ (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/358/index.m3u8
-#EXTINF:-1 tvg-id="TRKIldana.ua@SD" group-title="Украина | Общие",TRK Ildana (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
-https://pravdatytkyiv.cdn-01.cosmonova.net.ua/hls/pradva-tut-ildana_ua_hi/index.m3u8
 #EXTINF:-1 tvg-id="Trofei.ua@SD" group-title="Украина | Познавательные",Trofei (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/357/index.m3u8
-#EXTINF:-1 tvg-id="TV7Plus.ua@SD" group-title="Украина | Новости",TV7+
-https://tv7plus.com/hls/tv7_site.m3u8
 #EXTINF:-1 tvg-id="Rivne1.ua@SD" group-title="Украина | Региональные",TV Rivne 1 (720p)
 https://cdn1.live-tv.cloud/rivne1/rivne1-abr/playlist.m3u8
-#EXTINF:-1 tvg-id="TVA.ua@SD" group-title="Украина | Региональные",TVA (576p)
-http://hls.cdn.ua/tva.ua_live/livestream/chunklist_w396178779.m3u8
-#EXTINF:-1 tvg-id="TVA.ua@SD" group-title="Украина | Региональные",TVA (576p)
-https://rtsp.cdn.ua/tva.ua_live/_definst_/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="Tviyserial.ua@SD" group-title="Украина | Кино и сериалы",Tviy serial (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/466/index.m3u8
@@ -238,8 +229,6 @@ http://stream.mcquack.net/281/index.m3u8
 #EXTINF:-1 tvg-id="UNIANSerial.ua@SD" group-title="Украина | Кино и сериалы",UNIAN Serial (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://stream.mcquack.net/341/index.m3u8
-#EXTINF:-1 tvg-id="UPLTV.ua@SD" group-title="Украина | Спорт",UPL.TV
-http://dtv.vol.net.ua/UPL-TV/index.m3u8
 #EXTINF:-1 tvg-id="ViasatExplore.ua@SD" group-title="Украина | Познавательные",Viasat Explore (576p)
 http://dtv.vol.net.ua/Viasat-Explore/index.m3u8
 #EXTINF:-1 tvg-id="ViasatKino.ua@SD" group-title="Украина | Кино и сериалы",Viasat Kino (576p)
@@ -250,15 +239,9 @@ http://dtv.vol.net.ua/Viasat_Kino_Action_HD/index.m3u8
 #EXTVLCOPT:http-referrer=https://cool-tv.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18
 ***REMOVED***
-#EXTINF:-1 tvg-id="Z.ua@SD" group-title="Украина | Региональные",Z (Запорожье) (1080p)
-https://stream.ztv.zp.ua/hls/live.m3u8
 #EXTINF:-1 tvg-id="Zoom.ua@SD" group-title="Украина | Новости",Zoom (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://stream.mcquack.net/327/index.m3u8
-#EXTINF:-1 tvg-id="BaltaTV.ua@SD" group-title="Украина | Региональные",Балта ТВ (768p)
-http://194.50.51.34/playlist.m3u8
-#EXTINF:-1 tvg-id="DonbassOnline.ua@SD" group-title="Украина | Региональные",Донбас Online (1080p) [Not 24/7]
-http://176.110.1.30:1935/live/donbasonline/playlist.m3u8
 #EXTINF:-1 tvg-id="HopeChannelUkraine.ua@SD" group-title="Украина | Новости",Надия/Новый канал (576p) [Not 24/7]
 http://nadiya.home-net.com.ua/mob/mystream.m3u8
 #EXTINF:-1 tvg-id="NTKTV.ua@SD" group-title="Украина | Общие",НТК ТВ (1080p) [Not 24/7]
