@@ -55,8 +55,6 @@ https://ext.cdn.nashnet.tv/228.0.0.138/index.m3u8
 #EXTINF:-1 tvg-id="ChemodanTV.ua@SD" group-title="Украина | Региональные",Chemodan TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://stream.mcquack.net/399/index.m3u8
-#EXTINF:-1 tvg-id="Cherniveckiypromin.ua@SD" group-title="Украина | Региональные",Cherniveckiy promin (720p)
-https://langate.tv/promin/live_720/index.m3u8
 #EXTINF:-1 tvg-id="CinePlus.ua@SD" group-title="Украина | Общие",Cine+
 #EXTVLCOPT:http-referrer=http://live.tvstitch.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
