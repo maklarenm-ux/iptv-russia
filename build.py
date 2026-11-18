@@ -3,14 +3,30 @@ import re
 import urllib.request
 from pathlib import Path
 
-SOURCE_M3U = "https://free-epg.de/api/playlists/ru.m3u"
+SOURCE_M3U = "https://iptv-org.github.io/iptv/countries/ru.m3u"
 EPG_URL = "https://xmltv.live/epg/ru.xml.gz"
 
 OUTPUT = Path("playlist.m3u")
 
+# Дополнительные каналы
+CUSTOM_CHANNELS = [
+    {
+        "name": "ТНТ",
+        "id": "TNT.ru",
+        "url": "http://stream.mcquack.net/135/index.m3u8",
+        "group": "Россия | Развлечения"
+    },
+    {
+        "name": "ТНТ Премьера",
+        "id": "TNT-PREMIERA.ru",
+        "url": "http://31.148.5.241/kanal_19/index.m3u8",
+        "group": "Россия | Развлечения"
+    }
+]
+
 CATEGORIES = {
     "Новости": [
-        "news", "новости", "24", "россия 1", "мир 24"
+        "news", "новости", "24"
     ],
     "Кино и сериалы": [
         "cinema", "movie", "film", "кино", "сериал"
@@ -29,13 +45,16 @@ CATEGORIES = {
     ],
 }
 
+
 def download(url):
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": "Mozilla/5.0 IPTV-Playlist-Builder"}
+        headers={"User-Agent": "Mozilla/5.0"}
     )
+
     with urllib.request.urlopen(request, timeout=60) as response:
         return response.read().decode("utf-8-sig")
+
 
 def classify(extinf):
     value = extinf.lower()
@@ -45,6 +64,7 @@ def classify(extinf):
             return category
 
     return "Разное"
+
 
 def set_group(extinf, group):
     pattern = r'group-title="[^"]*"'
@@ -66,6 +86,7 @@ def set_group(extinf, group):
 
     return extinf
 
+
 def main():
     source = download(SOURCE_M3U)
     lines = source.splitlines()
@@ -76,16 +97,14 @@ def main():
     for line in lines:
         line = line.strip()
 
-        if not line:
-            continue
-
-        if line.startswith("#EXTM3U"):
+        if not line or line.startswith("#EXTM3U"):
             continue
 
         if line.startswith("#EXTINF:"):
             if current:
                 entries.append(current)
             current = [line]
+
         elif current:
             current.append(line)
 
@@ -98,28 +117,31 @@ def main():
     for entry in entries:
         extinf = entry[0]
 
-        # Находим URL потока
-        stream_urls = [
-            line for line in entry
-            if line.startswith(("http://", "https://", "rtmp://"))
-        ]
-
-        if not stream_urls:
+        # Не дублируем добавленные вручную каналы
+        if "tnt.ru" in extinf.lower():
             continue
 
-        stream = stream_urls[-1]
+        streams = [
+            line for line in entry
+            if line.startswith(("http://", "https://"))
+        ]
+
+        if not streams:
+            continue
+
+        stream = streams[-1]
 
         if stream in seen:
             continue
-         # Убираем старые записи ТНТ
-if "tnt.ru" in extinf.lower() or "тнт" in extinf.lower():
-    continue
+
         seen.add(stream)
 
         category = classify(extinf)
-        extinf = set_group(extinf, category)
+        extinf = set_group(
+            extinf,
+            "Россия | " + category
+        )
 
-        # Сохраняем дополнительные параметры источника
         metadata = [
             line for line in entry[1:]
             if line != stream
@@ -127,15 +149,24 @@ if "tnt.ru" in extinf.lower() or "тнт" in extinf.lower():
 
         result.append([extinf] + metadata + [stream])
 
+    # Добавляем ТНТ и ТНТ Премьеру
+    for channel in CUSTOM_CHANNELS:
+        if channel["url"] in seen:
+            continue
+
+        extinf = (
+            f'#EXTINF:-1 tvg-id="{channel["id"]}" '
+            f'tvg-name="{channel["name"]}" '
+            f'group-title="{channel["group"]}",'
+            f'{channel["name"]}'
+        )
+
+        result.append([extinf, channel["url"]])
+        seen.add(channel["url"])
+
     if not result:
-        raise RuntimeError("Источник не вернул ни одного канала")
+        raise RuntimeError("Список каналов пуст!")
 
-    output = [
-        "#EXTM3U",
-        f'#EXTM3U x-tvg-url="{EPG_URL}"'
-    ]
-
-    # Оставляем одну корректную заглавную строку
     output = [
         f'#EXTM3U x-tvg-url="{EPG_URL}"'
     ]
@@ -148,7 +179,10 @@ if "tnt.ru" in extinf.lower() or "тнт" in extinf.lower():
         encoding="utf-8"
     )
 
-    print(f"Готово! Каналов: {len(result)}")
+    print("IPTV обновлён!")
+    print(f"Всего каналов: {len(result)}")
+    print("Добавлены: ТНТ и ТНТ Премьера")
+
 
 if __name__ == "__main__":
     main()
