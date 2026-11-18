@@ -6,6 +6,12 @@ on:
     - cron: "0 */12 * * *"
   workflow_dispatch:
 
+# Не запускаем две сборки одновременно: иначе они могут одновременно
+# попытаться записать playlist.m3u в main.
+concurrency:
+  group: update-iptv-playlist
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -30,7 +36,10 @@ jobs:
           git config user.name "IPTV Bot"
           git config user.email "actions@users.noreply.github.com"
           git add playlist.m3u
-          git diff --cached --quiet || (
+          if ! git diff --cached --quiet; then
             git commit -m "Automatic IPTV update"
-            git push
-          )
+            # Подтягиваем изменения, появившиеся после checkout,
+            # чтобы push не завершался ошибкой fetch first.
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
