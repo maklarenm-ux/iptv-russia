@@ -33,10 +33,6 @@ http://stream.mcquack.net/285/index.m3u8
 #EXTINF:-1 tvg-id="ApostropheTV.ua@SD" group-title="Украина | Новости",Apostrophe TV (1080p)
 #EXTVLCOPT:http-user-agent=curl/8.16.0
 https://ext.cdn.nashnet.tv/228.0.2.165/index.m3u8
-#EXTINF:-1 tvg-id="ArmyTV.ua@SD" group-title="Украина | Новости",Army TV (1080p)
-https://api-tv.ipnet.ua/api/v1/manifest/2118742632.m3u8
-#EXTINF:-1 tvg-id="ArmyTV.ua@SD" group-title="Украина | Новости",Army TV (576p)
-http://195.54.52.40/test/index.m3u8
 #EXTINF:-1 tvg-id="ATR.ua@SD" group-title="Украина | Развлекательные",ATR (1080p)
 http://stream.mcquack.net/244/index.m3u8
 #EXTINF:-1 tvg-id="ATR.ua@SD" group-title="Украина | Развлекательные",ATR (720p)
