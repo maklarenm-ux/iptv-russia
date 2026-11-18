@@ -35,10 +35,6 @@ http://stream.mcquack.net/285/index.m3u8
 https://ext.cdn.nashnet.tv/228.0.2.165/index.m3u8
 #EXTINF:-1 tvg-id="ATR.ua@SD" group-title="Украина | Развлекательные",ATR (1080p)
 http://stream.mcquack.net/244/index.m3u8
-#EXTINF:-1 tvg-id="Avers.ua@SD" group-title="Украина | Познавательные",Avers (480p)
-https://avers.pp.ua/hls/efir.m3u8
-#EXTINF:-1 tvg-id="BamBarBiaTV.ua@SD" group-title="Украина | Региональные",BamBarBia TV (720p) [Not 24/7]
-http://cdn1.live-tv.od.ua:8081/bbb/bbbtv-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="Bigudi.ua@SD" group-title="Украина | Развлекательные",Bigudi (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://stream.mcquack.net/340/index.m3u8
