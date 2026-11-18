@@ -4,7 +4,7 @@ import urllib.request
 from pathlib import Path
 
 SOURCE_M3U = "https://free-epg.de/api/playlists/ru.m3u"
-EPG_URL = "https://free-epg.de/api/epg/ru.xml.gz"
+EPG_URL = "https://xmltv.live/epg/ru.xml.gz"
 
 OUTPUT = Path("playlist.m3u")
 
