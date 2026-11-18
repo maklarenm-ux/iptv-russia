@@ -249,10 +249,6 @@ http://cdn10.live-tv.od.ua:8081/sk1zt/sk1zt-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="SferaTV.ua@SD" group-title="Украина | Региональные",Сфера-ТВ (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
 https://cdn10.live-tv.cloud/sferarv/sferarv-abr/playlist.m3u8
-#EXTINF:-1 tvg-id="TVA.ua@SD" group-title="Украина | Региональные",ТВА (Чернiвцi) (576p)
-http://hls.cdn.ua/tva.ua_live/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="TVA.ua@SD" group-title="Украина | Региональные",ТВА (Чернiвцi) (576p)
-http://rtsp.cdn.ua/tva.ua_live/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="Reporter.ua@SD" group-title="Украина | Новости",Телеканал Репортер Одесса (720p)
 http://cdn1.live-tv.od.ua:8081/31chod/31chod-abr/31chod/31chod/playlist.m3u8
 #EXTINF:-1 tvg-id="Ternopil1.ua@SD" group-title="Украина | Региональные",Тернопіль 1 (720p)
