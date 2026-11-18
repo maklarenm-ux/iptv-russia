@@ -22,6 +22,13 @@ CUSTOM_CHANNELS = [
         "url": "http://31.148.5.241/kanal_19/index.m3u8",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/4/43/%D0%A2%D0%9D%D0%A2-Premier.png",
         "group": "Россия | Развлечения"
+    },
+    {
+        "name": "Мосфильм золотая коллекция",
+        "id": "MosfilmGoldCollection.ru@SD",
+        "url": "http://178.217.72.66:8080/mosfilm/index.m3u8",
+        "logo": "https://i.imgur.com/95Y8jb6.png",
+        "group": "Россия | Кино и сериалы"
     }
 ]
 
@@ -119,7 +126,7 @@ def main():
         extinf = entry[0]
 
         # Не дублируем добавленные вручную каналы
-        if "tnt.ru" in extinf.lower():
+        if "tnt.ru" in extinf.lower() or "mosfilmgoldcollection.ru" in extinf.lower():
             continue
 
         streams = [
