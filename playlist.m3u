@@ -1017,3 +1017,5 @@ http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist.m3u8
 http://stream.mcquack.net/135/index.m3u8
 #EXTINF:-1 tvg-id="TNT-PREMIERA.ru" tvg-name="ТНТ Премьера" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/43/%D0%A2%D0%9D%D0%A2-Premier.png" group-title="Россия | Развлечения",ТНТ Премьера
 http://31.148.5.241/kanal_19/index.m3u8
+#EXTINF:-1 tvg-id="MosfilmGoldCollection.ru@SD" tvg-logo="https://i.imgur.com/95Y8jb6.png" group-title="Россия | Кино и сериалы",Мосфильм золотая коллекция
+http://stream.mcquack.net/369/index.m3u8
