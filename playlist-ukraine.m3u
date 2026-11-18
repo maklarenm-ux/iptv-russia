@@ -208,8 +208,6 @@ http://stream.mcquack.net/212/index.m3u8
 #EXTINF:-1 tvg-id="STB.ua@SD" group-title="Украина | Развлекательные",STB (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/156/index.m3u8
-#EXTINF:-1 tvg-id="SuperPlus.ua@SD" group-title="Украина | Общие",Super+ (360p)
-http://dtv.vol.net.ua/super_plus/index.m3u8
 #EXTINF:-1 tvg-id="SuspilneKrym.ua@SD" group-title="Украина | Общие",Suspilne. Krym (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/436/index.m3u8
