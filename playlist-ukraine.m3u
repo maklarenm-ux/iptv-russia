@@ -143,9 +143,6 @@ http://stream.mcquack.net/325/index.m3u8
 http://5.188.159.128:8070/megogo_sport/index.m3u8
 #EXTINF:-1 tvg-id="Muzvar.ua@SD" group-title="Украина | Общие",Muzvar (1080p)
 https://cdn15.live-tv.cloud/ua_infinitas_tv/muzvar-abr/playlist.m3u8
-#EXTINF:-1 tvg-id="MyUkrainaPlus.ua@SD" group-title="Украина | Новости",My Ukraina+
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://api-tv.ipnet.ua/api/v1/manifest/2118742680.m3u8
 #EXTINF:-1 tvg-id="MyUkrainaTV.ua@SD" group-title="Украина | Новости",My-Ukraina TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/442/index.m3u8
