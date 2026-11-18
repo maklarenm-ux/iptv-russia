@@ -111,7 +111,9 @@ def main():
 
         if stream in seen:
             continue
-
+         # Убираем старые записи ТНТ
+if "tnt.ru" in extinf.lower() or "тнт" in extinf.lower():
+    continue
         seen.add(stream)
 
         category = classify(extinf)
