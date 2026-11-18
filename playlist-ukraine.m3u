@@ -158,25 +158,9 @@ http://stream.mcquack.net/157/index.m3u8
 rtmp://95.67.11.153/klive/stream
 #EXTINF:-1 tvg-id="NTN.ua@SD" group-title="Украина | Новости",NTN (1080p)
 http://stream.mcquack.net/326/index.m3u8
-#EXTINF:-1 tvg-id="NTN.ua@SD" group-title="Украина | Новости",NTN (1080i)
-https://cdn15.live-tv.cloud/ua_infinitas_tv/ntn-abr/playlist.m3u8
-#EXTINF:-1 tvg-id="ObozrevatelTV.ua@SD" group-title="Украина | Новости",Obozrevatel TV
-#EXTVLCOPT:http-user-agent=curl/8.16.0
-https://ext.cdn.nashnet.tv/228.0.0.148/index.m3u8
-#EXTINF:-1 tvg-id="OnePlanet.ua@SD" group-title="Украина | Познавательные",One Planet (1080p)
-http://dtv.vol.net.ua/OnePlanet/index.m3u8
-#EXTINF:-1 tvg-id="OnePlanet.ua@SD" group-title="Украина | Познавательные",One Planet (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-http://stream.mcquack.net/448/index.m3u8
 #EXTINF:-1 tvg-id="OTSE.ua@SD" group-title="Украина | Общие",OTSE (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/329/index.m3u8
-#EXTINF:-1 tvg-id="OTV.ua@SD" group-title="Украина | Развлекательные",OTV (576p)
-https://stream.otv.ua/memfs/028e5947-073f-4b4e-a47f-70e59ca3ee36.m3u8
-#EXTINF:-1 tvg-id="PershiyXTVMedia.ua@SD" group-title="Украина | Новости",Pershiy XTV Media (576p)
-https://hls.xtvmedia.pp.ua:8443/hls/trk1tv.m3u8
-#EXTINF:-1 tvg-id="Pershyi.ua@SD" group-title="Украина | Новости",Pershyi (1080p)
-https://api-tv.ipnet.ua/api/v1/manifest/2118742505.m3u8
 #EXTINF:-1 tvg-id="Pershyiavtomobilnyi.ua@SD" group-title="Украина | Новости",Pershyi avtomobilnyi (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/404/index.m3u8
