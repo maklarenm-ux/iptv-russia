@@ -251,8 +251,6 @@ http://cdn10.live-tv.od.ua:8081/sk1zt/sk1zt-abr/playlist.m3u8
 https://cdn10.live-tv.cloud/sferarv/sferarv-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="Reporter.ua@SD" group-title="Украина | Новости",Телеканал Репортер Одесса (720p)
 http://cdn1.live-tv.od.ua:8081/31chod/31chod-abr/31chod/31chod/playlist.m3u8
-#EXTINF:-1 tvg-id="TRKAleks.ua@SD" group-title="Украина | Региональные",ТРК Алекс (576p)
-http://46.46.112.223/live/livestream1.m3u8
 #EXTINF:-1 tvg-id="TUSO.ua@SD" group-title="Украина | Региональные",Тюсо (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
 https://tuso.cdn-01.cosmonova.net.ua/hls/tuso_ua.m3u8
