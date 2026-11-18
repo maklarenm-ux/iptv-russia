@@ -213,11 +213,6 @@ http://stream.mcquack.net/156/index.m3u8
 http://stream.mcquack.net/436/index.m3u8
 #EXTINF:-1 tvg-id="SuspilneKultura.ua@SD" group-title="Украина | Общие",Suspilne. Kultura (1080p)
 http://stream.mcquack.net/435/index.m3u8
-#EXTINF:-1 tvg-id="SuspilneKyiv.ua@SD" group-title="Украина | Новости",Suspilne. Kyiv (360p)
-https://live-nstu.cdn-03.cosmonova.net.ua/mobile-app/main/nstu-kyiv/master.m3u8
-#EXTINF:-1 tvg-id="SuspilneSport.ua@SD" group-title="Украина | Спорт",Suspilne. Sport (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-http://stream.mcquack.net/444/index.m3u8
 #EXTINF:-1 tvg-id="SvitPlus.ua@SD" group-title="Украина | Общие",Svit+ (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/358/index.m3u8
