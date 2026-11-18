@@ -151,9 +151,6 @@ http://stream.mcquack.net/442/index.m3u8
 http://stream.mcquack.net/456/index.m3u8
 #EXTINF:-1 tvg-id="NASHEMusic.ua@SD" group-title="Украина | Музыка",NASHE Music (720p)
 https://cdn15.live-tv.cloud/ua_infinitas_tv/nashemus-abr/playlist.m3u8
-#EXTINF:-1 tvg-id="Nauka.ua@SD" group-title="Украина | Общие",Nauka (576p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-http://stream.mcquack.net/403/index.m3u8
 #EXTINF:-1 tvg-id="NovyiChannel.ua@SD" group-title="Украина | Развлекательные",Novyi Channel (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/157/index.m3u8
