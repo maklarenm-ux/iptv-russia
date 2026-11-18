@@ -86,16 +86,6 @@ https://dash2.antik.sk/live/test_film_life_atktv/playlist.m3u8
 https://dash2.antik.sk/live/test_film_drama_atktv/playlist.m3u8
 #EXTINF:-1 tvg-id="FREEDOM.ua@SD" group-title="Украина | Новости",FREEDOM (1080p)
 https://dash4.antik.sk/live/test_uatv/playlist.m3u8
-#EXTINF:-1 tvg-id="GIT.ua@SD" group-title="Украина | Новости",GIT (720p)
-https://stream.uagit.tv/gittv.m3u8
-#EXTINF:-1 tvg-id="HappyRadioTV.ua@HD" group-title="Украина | Музыка",Happy Radio TV (1080p)
-https://tv.mediacp.eu:8081/happyradio/index.m3u8
-#EXTINF:-1 tvg-id="History2Ukraine.ua@SD" group-title="Украина | Познавательные",History2 Ukraine (360p)
-http://dtv.vol.net.ua/H2-HD/index.m3u8
-#EXTINF:-1 tvg-id="HistoryUkraine.ua@SD" group-title="Украина | Познавательные",History Ukraine
-http://dtv.vol.net.ua/History_HD/index.m3u8
-#EXTINF:-1 tvg-id="HollywoodUkraine.ua@SD" group-title="Украина | Кино и сериалы",Hollywood Ukraine (576p)
-http://dtv.vol.net.ua/Hollywood-HD/index.m3u8
 #EXTINF:-1 tvg-id="IUAtv.ua@SD" group-title="Украина | Новости",I-UA.tv (1080p)
 https://kie2.cdn.i-ua.tv/hlsme/iuatv.m3u8
 #EXTINF:-1 tvg-id="ICTV.ua@SD" group-title="Украина | Новости",ICTV (1080p)
