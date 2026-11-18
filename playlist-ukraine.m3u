@@ -145,12 +145,6 @@ http://stream.mcquack.net/487/index.m3u8
 #EXTINF:-1 tvg-id="MasonTV.ua@SD" group-title="Украина | Развлекательные",Mason TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/346/index.m3u8
-#EXTINF:-1 tvg-id="Mega.ua@SD" group-title="Украина | Развлекательные",Mega (1080p)
-http://dtv.vol.net.ua/MEGA_HD/index.m3u8
-#EXTINF:-1 tvg-id="Mega.ua@SD" group-title="Украина | Развлекательные",Mega (1080p)
-http://stream.mcquack.net/325/index.m3u8
-#EXTINF:-1 tvg-id="Mega.ua@SD" group-title="Украина | Развлекательные",Mega (720p)
-https://cdn15.live-tv.cloud/ua_infinitas_tv/mega-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="MegogoMusic.ua@SD" group-title="Украина | Музыка",Megogo Music
 #EXTVLCOPT:http-user-agent=curl/8.16.0
 https://ext.cdn.nashnet.tv/228.0.2.214/index.m3u8
