@@ -216,8 +216,6 @@ http://stream.mcquack.net/435/index.m3u8
 #EXTINF:-1 tvg-id="SvitPlus.ua@SD" group-title="Украина | Общие",Svit+ (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/358/index.m3u8
-#EXTINF:-1 tvg-id="Televsesvit.ua@SD" group-title="Украина | Региональные",Televsesvit (1080p)
-https://televsesvit.cdn-04.cosmonova.net.ua/hls/televsesvit_ua_hi/index.m3u8
 #EXTINF:-1 tvg-id="Terra.ua@SD" group-title="Украина | Познавательные",Terra (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/402/index.m3u8
