@@ -20,6 +20,7 @@ CUSTOM_CHANNELS = [
         "name": "ТНТ Премьера",
         "id": "TNT-PREMIERA.ru",
         "url": "http://31.148.5.241/kanal_19/index.m3u8",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/4/43/%D0%A2%D0%9D%D0%A2-Premier.png",
         "group": "Россия | Развлечения"
     }
 ]
@@ -157,7 +158,8 @@ def main():
         extinf = (
             f'#EXTINF:-1 tvg-id="{channel["id"]}" '
             f'tvg-name="{channel["name"]}" '
-            f'group-title="{channel["group"]}",'
+            + (f'tvg-logo="{channel["logo"]}" ' if channel.get("logo") else "")
+            + f'group-title="{channel["group"]}",'
             f'{channel["name"]}'
         )
 
