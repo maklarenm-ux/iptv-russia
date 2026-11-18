@@ -73,6 +73,8 @@ https://ext.cdn.nashnet.tv/228.0.1.60/index.m3u8
 #EXTINF:-1 tvg-id="EnterFilm.ua@SD" group-title="Украина | Кино и сериалы",Enter-Film (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://stream.mcquack.net/322/index.m3u8
+#EXTINF:-1 tvg-id="EspresoTV.ua@SD" group-title="Украина | Новости",Espreso TV (1080p)
+https://dash2.antik.sk/live/test_espresso/playlist.m3u8
 #EXTINF:-1 tvg-id="EUMusic.ua@SD" group-title="Украина | Музыка",EU Music (1080p)
 http://stream.mcquack.net/261/index.m3u8
 #EXTINF:-1 tvg-id="Fashion.ua@SD" group-title="Украина | Развлекательные",Fashion (1080p)
