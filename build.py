@@ -144,7 +144,59 @@ def main():
 
         seen.add(stream)
 
-        category = classify(extinf)
+        if "ntvseries.ru@sd" in extinf.lower():
+            extinf = re.sub(r',.*
+
+        metadata = [
+            line for line in entry[1:]
+            if line != stream
+        ]
+
+        result.append([extinf] + metadata + [stream])
+
+    # Добавляем ТНТ и ТНТ Премьеру
+    for channel in CUSTOM_CHANNELS:
+        if channel["url"] in seen:
+            continue
+
+        extinf = (
+            f'#EXTINF:-1 tvg-id="{channel["id"]}" '
+            f'tvg-name="{channel["name"]}" '
+            + (f'tvg-logo="{channel["logo"]}" ' if channel.get("logo") else "")
+            + f'group-title="{channel["group"]}",'
+            f'{channel["name"]}'
+        )
+
+        result.append([extinf, channel["url"]])
+        seen.add(channel["url"])
+
+    if not result:
+        raise RuntimeError("Список каналов пуст!")
+
+    output = [
+        f'#EXTM3U x-tvg-url="{EPG_URL}"'
+    ]
+
+    for entry in result:
+        output.extend(entry)
+
+    OUTPUT.write_text(
+        "\n".join(output) + "\n",
+        encoding="utf-8"
+    )
+
+    print("IPTV обновлён!")
+    print(f"Всего каналов: {len(result)}")
+    print("Добавлены: ТНТ и ТНТ Премьера")
+
+
+if __name__ == "__main__":
+    main()
+, ',НТВ сериал', extinf)
+            category = "Кино и сериалы"
+        else:
+            category = classify(extinf)
+
         extinf = set_group(
             extinf,
             "Россия | " + category
