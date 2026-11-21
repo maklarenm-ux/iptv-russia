@@ -208,6 +208,9 @@ http://stream.mcquack.net/212/index.m3u8
 #EXTINF:-1 tvg-id="STB.ua" tvg-logo="https://i.imgur.com/DCbfsyW.png" group-title="Украина | Развлекательные",STB (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/156/index.m3u8
+#EXTINF:-1 tvg-id="STB.ua" tvg-logo="https://i.imgur.com/DCbfsyW.png" group-title="Украина | Развлекательные",STB (резерв — не проверен)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://saveukraine.only4.tv/0160/video.m3u8?token=saveUkrain
 #EXTINF:-1 tvg-id="SuspilneKrym.ua" tvg-logo="https://i.imgur.com/m7znCes.png" group-title="Украина | Общие",Suspilne. Krym (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/436/index.m3u8
